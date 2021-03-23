@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img1.PNG" translatesAutoresizingMaskIntoConstraints="NO" id="eRC-mD-PZh">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="eRC-mD-PZh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="1JA-vs-VK0"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eRC-mD-PZh" secondAttribute="trailing" id="BWO-oe-pts"/>
+                            <constraint firstItem="eRC-mD-PZh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="JyX-Na-9Cj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="eRC-mD-PZh" secondAttribute="bottom" id="Tm0-DZ-XqU"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="5Cf-l9-SZf">
+            <objects>
+                <viewController id="J8f-63-aEc" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Wf3-cc-2GS">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="img2.PNG" translatesAutoresizingMaskIntoConstraints="NO" id="VMV-QK-rGA">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="AEZ-MC-CbG"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Kwj-CH-zlF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="50.724637681159422" y="-299.33035714285711"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="uYV-HL-F02">
+            <objects>
+                <viewController id="Jda-Vx-SHX" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tBc-3Y-DRl">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img3.PNG.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Ree-eO-1IB">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="FHr-Hm-DgN" firstAttribute="trailing" secondItem="Ree-eO-1IB" secondAttribute="trailing" id="9pz-cC-DdG"/>
+                            <constraint firstItem="FHr-Hm-DgN" firstAttribute="bottom" secondItem="Ree-eO-1IB" secondAttribute="bottom" id="fUP-Fl-oCw"/>
+                            <constraint firstItem="Ree-eO-1IB" firstAttribute="top" secondItem="FHr-Hm-DgN" secondAttribute="top" id="tYw-ln-Je5"/>
+                            <constraint firstItem="Ree-eO-1IB" firstAttribute="leading" secondItem="FHr-Hm-DgN" secondAttribute="leading" id="yhs-Wg-R8P"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="FHr-Hm-DgN"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="74d-lW-OiU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="49" y="-973"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="d6h-Lj-Yzo">
+            <objects>
+                <viewController id="RBg-Eb-M4r" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zO7-a6-M6f">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="img4.PNG" translatesAutoresizingMaskIntoConstraints="NO" id="R9T-4A-uLl">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="095-Sn-UcL"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7JV-wY-sNR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="47.826086956521742" y="-1647.3214285714284"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="pnW-Ns-AcH">
+            <objects>
+                <viewController id="P1t-9C-b5I" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1s0-Cg-oW7">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img5.PNG" translatesAutoresizingMaskIntoConstraints="NO" id="a8A-Il-zMA">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="jx2-5a-2Kn" firstAttribute="bottom" secondItem="a8A-Il-zMA" secondAttribute="bottom" id="0xp-Vx-gqo"/>
+                            <constraint firstItem="a8A-Il-zMA" firstAttribute="top" secondItem="jx2-5a-2Kn" secondAttribute="top" id="DqR-HV-qzr"/>
+                            <constraint firstItem="a8A-Il-zMA" firstAttribute="leading" secondItem="jx2-5a-2Kn" secondAttribute="leading" id="nWR-Wi-dZV"/>
+                            <constraint firstItem="jx2-5a-2Kn" firstAttribute="trailing" secondItem="a8A-Il-zMA" secondAttribute="trailing" id="s7u-XZ-LAL"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="jx2-5a-2Kn"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SkR-qN-6lC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="48" y="-2321"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="img1.PNG" width="640" height="1136"/>
+        <image name="img2.PNG" width="640" height="1136"/>
+        <image name="img3.PNG.jpg" width="640" height="1136"/>
+        <image name="img4.PNG" width="640" height="1136"/>
+        <image name="img5.PNG" width="640" height="1136"/>
+    </resources>
+</document>
