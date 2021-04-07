@@ -1,8 +1,8 @@
 //
 //  ContentView.swift
-//  Prueba2
+//  Actividad9_GSL_PantallaNav
 //
-//  Created by user182860 on 3/22/21.
+//  Created by user182860 on 4/6/21.
 //  Copyright © 2021 user182860. All rights reserved.
 //
 

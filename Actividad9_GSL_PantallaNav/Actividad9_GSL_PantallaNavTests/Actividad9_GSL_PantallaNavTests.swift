@@ -1,15 +1,15 @@
 //
-//  Prueba2Tests.swift
-//  Prueba2Tests
+//  Actividad9_GSL_PantallaNavTests.swift
+//  Actividad9_GSL_PantallaNavTests
 //
-//  Created by user182860 on 3/22/21.
+//  Created by user182860 on 4/6/21.
 //  Copyright © 2021 user182860. All rights reserved.
 //
 
 import XCTest
-@testable import Prueba2
+@testable import Actividad9_GSL_PantallaNav
 
-class Prueba2Tests: XCTestCase {
+class Actividad9_GSL_PantallaNavTests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
